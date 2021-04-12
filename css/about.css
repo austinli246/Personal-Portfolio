@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+
+}
+.header{
+    background: white;
+    padding: 3px 20px;
+    list-style:none;
+    box-shadow: 0px 1px 10px 1px #888888;
+
+}
+
+.header-items{
+    display: flex;
+    justify-content: flex-end;
+    width: 30vw;
+    height: 40px;
+    align-items:center;
+    margin: 0px 100px 0px auto;
+     
+ }
+ .link{
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+.link a { 
+    color:black;
+    text-decoration:none;  
+}
+.link a:hover{
+    color:red;
+}
+
+.box1 {
+    width: 35vw;
+    height: 40vh;
+    background:green;
+    position: fixed;
+    top: 15%;
+    left: 8%;
+    background:white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 1px #888888;
+    padding: 30px 40px;
+    z-index:10;
+
+}
+.box2 {
+    width: 35vw;
+    height: 40vh;
+    background:green;
+    position: fixed;
+    top: 45%;
+    right: 12%;
+    background:white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 1px #888888;
+    padding: 30px 40px;
+    z-index:10;
+    
+    
+}
+.box2-header{
+    margin-top:-5px;
+    text-align:right;
+    
+}
+
+h1{
+    font-size: 50px;
+    margin:0;
+
+}
+.box1 hr{
+    width: 10vw;
+    margin-left: 0;
+    border:1px solid red;
+}
+
+.box2 hr {
+    border:1px solid red;
+    margin-right:0;
+    width: 10vw;
+
+}
+h2{
+    margin: 10px 0px;
+    font-weight:lighter;
+}
+.box1 p{
+    margin:0;
+    font-size:15px;
+    color:gray;
+}
+.box2 p{
+    font-size: 20px;
+}
+
+.skills{
+    position:fixed;
+    width: 200px;
+    height: 125px;
+    border-radius: 10px;
+    padding:0px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+
+    background:rgb(247, 136, 160);
+}
+.skills:hover{
+    box-shadow: 0px 3px 10px 1px #888888;
+}
+
+.soft {
+    position:absolute;
+    top:150px;
+    right: 30px;
+}
+.skills p {
+
+    display:flex;
+    width: 175px;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    margin:0;
+    padding:0;
+
+}
+
+.hardskills{
+    position:absolute;
+    top:20px;
+    left:30px;
+}
+.hard { 
+    position: absolute;
+    height:200px;
+    top:75px;
+    left: 30px;
+
+}
+
+.background{
+    position:fixed;
+    left:-350px;
+    width: 5000px;
+    height: 5000px;
+    background:linear-gradient(to right, rgb(255, 85, 85) 1%, rgb(255, 170, 170) 10%);
+    transform:rotate(75deg);
+   
+        
+}

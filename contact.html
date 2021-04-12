@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel = "stylesheet" href = "css/contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "background"></div>
+    <div class = "header"> 
+        <div class = "header-items">
+            <div class = "link"><a href= "homepage.html">Home</a></div>
+            <div class = "link"><a href= "about.html">About</a></div>
+            <div class = "link"><a href= "contact.html">Contact</a></div>   
+        </div>
+    </div>
+    <article> 
+    
+        <h1> Contact Me </h1>
+
+        <h2> I'm eager to add value to your business. Fill out the form and I'll be in touch as soon as possible.</h2>
+    </article>
+    <div class = "box">
+
+        <form>
+
+                
+                <p>
+                    <label for = "firstName">First name<sup>*</sup></label>
+                    <input class = "input-format" type = "text" placeholder = "John" id = "firstName" name = "firstName" required>
+                </p>
+                
+                <p>
+                    <label for = "lastName">Last name<sup>*</sup></label>
+                    <input class = "input-format" type = "text" placeholder = "Doe" id = "lastName" name = "lastName" required>
+                </p>
+                
+                <p> 
+                    <label for = "email">Work email<sup>*</sup></label>
+                    <input class = "input-format" type = "email" placeholder = "johndoe@gmail.com" id = "email" name = "email" required>
+                </p>
+                
+                <p>
+                    <label for = "country">Country<sup>*</sup></label>
+                    <select class = "input-format" name = "country" id = "country" required>
+                        <option value = "">-- Select --</option>
+                        <option value = "United States">United States</option>
+                        <option value = "Canada">Canada</option>
+                        <option value = "Overseas">Overseas</option>
+                        
+                    </select>
+                </p>
+                
+                <p class = "text-area">
+                    <label for = "comments">Anything else? </label>
+                    <textarea 
+                    class = "input-format largearea"
+                    id = "comments"
+                    name = "comments" 
+                    placeholder = "Let me know how I can help you :)"
+                    ></textarea>
+                </p>
+                
+                
+                <div class = "radio">
+                    Gender
+                    <div class = "radio-items">
+                        <div>
+                            <input type = "radio" value = "Male_gender" name = "gender" id = "male">
+                            <label for= "male">Male</label>
+                        </div>
+                        <div>
+                            <input type = "radio" value = "Female_gender" name = "gender" id = "female">
+                            <label for= "female">Female</label>
+                        </div>
+                        <div>
+                            <input type = "radio" value = "Other_gender" name = "gender" id = "other">
+                            <label for= "other">Other</label>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div class = "checkbox">
+                    <input type = "checkbox" name = "email_consent" id = "yes" value = "yes">
+                    Keep me updated
+                </div>
+            
+                <div class = "required"><sup>*</sup> = required</div>
+                <input class = "button" type = "submit" value = "Contact Me">
+
+        </form>
+    </div>
+    
+</body>
+</html>
